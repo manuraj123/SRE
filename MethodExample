@@ -1,0 +1,12 @@
+public class MethodExample {
+    public static int square(int num) {
+        return num * num;
+    }
+
+    public static void main(String[] args) {
+        int number = 5;
+        int squaredNumber = square(number);
+ 
+        System.out.println("The square of " + number + " is: " + squaredNumber);
+    }
+}
