@@ -1,0 +1,19 @@
+public class ExceptionHandlingExample {
+    public static void main(String[] args) {
+        int[] numbers = { 1, 2, 3 };
+
+        try {
+            // Trying to access an element outside the array bounds
+            System.out.println("Trying to access element at index 3: " + numbers[3]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            // Catching the ArrayIndexOutOfBoundsException
+            System.out.println("Exception caught: ArrayIndexOutOfBoundsException");
+        } finally {
+            // Finally block executes regardless of whether an exception occurs or not
+            System.out.println("Finally block executed.");
+        }
+
+        // Rest of the code continues after handling the exception
+        System.out.println("Program continues...");
+    }
+}
