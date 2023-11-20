@@ -1,0 +1,13 @@
+public class VariablesExample {
+    public static void main(String[] args) {
+     
+        int number = 10;
+        System.out.println("The value of number is: " + number);
+        double pi = 3.14159;
+        System.out.println("The value of pi is: " + pi);
+        boolean isJavaFun = true;
+        System.out.println("Is Java fun? " + isJavaFun);
+        String greeting = "Hello, Java!";
+        System.out.println(greeting);
+    }
+}
