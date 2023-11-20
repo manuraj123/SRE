@@ -1,0 +1,23 @@
+
+class Car {
+ 
+    String make;
+    String model;
+    int year;
+
+    void displayInfo() {
+        System.out.println("Car make: " + make);
+        System.out.println("Car model: " + model);
+        System.out.println("Car year: " + year);
+    }
+}
+
+public class ObjectExample {
+    public static void main(String[] args) {
+          Car myCar = new Car();
+        myCar.make = "Toyota";
+        myCar.model = "Corolla";
+        myCar.year = 2020;
+        myCar.displayInfo();
+    }
+}
